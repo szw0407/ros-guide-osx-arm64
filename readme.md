@@ -55,4 +55,10 @@ conda activate ros1
 code .
 ```
 
+Moreover, if you are just lazy and wish an out-of-box experience, you can use the provided Nix flake to setup the conda environment automatically. Just make sure you have [Nix](https://nixos.org/download.html) installed (on macOS it is recommended to use the [Determinate Nix Installer](https://determinate.systems), which also supports Flakes which we use now). Then you can run:
+
+```bash
+nix develop
+```
+
 Then things should work fine.
